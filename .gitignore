@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+
+# VS Code stuff
+.vscode/
+
+# Project Related
+build/
+output/
+**/data
