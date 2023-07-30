@@ -459,7 +459,7 @@ if __name__ == '__main__':
     apply_mirror_lst = [True, True, False]
     PNT_THRESH_lst = [80, 5, 5]
     ex_coords_ratio_lst = [50, 5, 5]
-    max_num_bm_lst = [2, 1, 1]
+    max_num_bm_lst = [2, 2, 2]
     nearest_dist_lst = [0.10, 0.05, 0.05]
     iou_thresh_lst = [0.90, 0.90, 0.90]
     num_extra_coords_lst = [2000, 2000, 2000]
@@ -483,7 +483,7 @@ if __name__ == '__main__':
         coord_inds = torch.nonzero(coords_num > PNT_THRESH_lst[i])[...,0]
         print("coord_inds", coord_inds.shape)
         iou3d = iou3d[:, coord_inds]
-        sorted_iou, best_iou_indices = torch.topk(iou3d, min(800, len(iou3d)), dim=-1, sorted=True, largest=True)
+        sorted_iou, best_iou_indices = torch.topk(iou3d, min(800, len(iou3d[0])), dim=-1, sorted=True, largest=True)
         pnt_thresh_best_iou_indices = coord_inds[best_iou_indices]
         print("best_iou_indices", best_iou_indices.shape, "pnt_thresh_best_iou_indices", pnt_thresh_best_iou_indices.shape, len(mirrored_pnts_lst), )
         # exit()
