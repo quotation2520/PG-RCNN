@@ -6,7 +6,7 @@
 
 This is the official implementation of "PG-RCNN: Semantic Surface Point Generation for 3D Object Detection" (ICCV 2023).
 
-[[ArXIv](http://arxiv.org/abs/2307.12637)]
+[[ArXiv](http://arxiv.org/abs/2307.12637)]
 
 Thanks to [OpenPCDet](https://github.com/open-mmlab/OpenPCDet), our implementation is based of pcdet v0.5.2.
 
@@ -22,7 +22,7 @@ The results are the 3D detection performance of moderate difficulty on the *val*
 
 |                                             | training time | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download | 
 |---------------------------------------------|----------:|:-------:|:-------:|:-------:|:---------:|
-| [PGRCNN](tools/cfgs/kitti_models/pgrcnn.yaml) |~4.5 hours| 85.25 | 58.37 | 75.04 | [model-8.8M](https://drive.google.com/file/d/1tOQM4SKJsirc_WUxxAZrdl2RNuPZkVv8/view?usp=sharing) | 
+| [PGRCNN](tools/cfgs/kitti_models/pgrcnn.yaml) |~4.5 hours| 85.25 | 58.37 | 75.04 | [model-8.8M](https://drive.google.com/file/d/16j2YalyTfJXHdSWP_NDnbPkrY_1TGOih/view?usp=drive_link) | 
 
 Note that the performance may vary a little due to sampling in PointNet++ encoder.
 
