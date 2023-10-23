@@ -4,7 +4,6 @@ from .dynamic_mean_vfe import DynamicMeanVFE
 from .dynamic_pillar_vfe import DynamicPillarVFE
 from .image_vfe import ImageVFE
 from .image_point_vfe import ImagePointVFE
-from .contrastive_vfe import ContrastiveVFE
 from .vfe_template import VFETemplate
 
 __all__ = {
@@ -15,5 +14,4 @@ __all__ = {
     'DynMeanVFE': DynamicMeanVFE,
     'DynPillarVFE': DynamicPillarVFE,
     'ImagePointVFE': ImagePointVFE,
-    'ContrastiveVFE': ContrastiveVFE
 }
