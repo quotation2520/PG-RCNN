@@ -1,10 +1,17 @@
 # PG-RCNN: Semantic Surface Point Generation for 3D Object Detection (ICCV 2023)
 
 <p align="center">
-  <img src="docs/framework.png" width="95%">
+  <img src="docs/PGRCNN_video.gif" width="95%">
+</p>
+<p align="center">
+  <img src="docs/PGRCNN_video_bev.gif" width="95%">
 </p>
 
 This is the official implementation of "PG-RCNN: Semantic Surface Point Generation for 3D Object Detection" (ICCV 2023).
+
+<p align="center">
+  <img src="docs/framework.png" width="95%">
+</p>
 
 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Koo_PG-RCNN_Semantic_Surface_Point_Generation_for_3D_Object_Detection_ICCV_2023_paper.pdf)] [[Supp](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Koo_PG-RCNN_Semantic_Surface_ICCV_2023_supplemental.pdf)] [[ArXiv](http://arxiv.org/abs/2307.12637)]
 
